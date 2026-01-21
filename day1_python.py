@@ -15,10 +15,10 @@ lst = tuple(lst)
 print("modified tuple",lst)
 
 output:
-original tuple (1, 2, 3, 4, 6)
-original list [1, 2, 3, 4, 6]
-modified list [100, 2, 3, 4, 6, 7]
-modified tuple (100, 2, 3, 4, 6, 7)
+original tuple (1, 2, 3, 4, 5, 6)
+original list [1, 2, 3, 4, 5, 6]
+modified list [100, 2, 3, 4, 5, 6, 7]
+modified tuple (100, 2, 3, 4, 5, 6, 7)
 
 
 2. Given a tuple (1,2,3,4,5), create a new tuple containing only even numbers.
