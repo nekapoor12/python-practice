@@ -7,6 +7,29 @@ This file demonstrates functions in Python:
 """
 
 # Simple function
+def cal_sum(a,b):    #parameters 
+    return(a+b)
+sum = cal_sum(a,b)   #function call; arguments 
+print(sum)
+
+#for example if i want to write a funtion to calculate the avg of 3 numbers
+
+def cal_sum(a,b,c):
+    sum=a+b+c
+    avg = sum/3
+    print(avg)
+    return(avg)
+cal_sum(33,43,45)
+
+
+cities =["delhi", "mumbai", "karnataka", "bengaluru"]
+heroes =["batman","ironman", "shaktiman","bheem","hanuman"]
+
+def print_len():
+    print(len(cities))
+    print(len(heroes))
+print_len()
+
 def greet():
     print("Hello, welcome to Python!")
 
