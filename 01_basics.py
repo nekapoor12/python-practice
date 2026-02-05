@@ -24,8 +24,6 @@ print("Age:", age)
 print("Height:", height)
 print("Is Engineer:", is_engineer)
 
-print("-" * 40)
-
 # Taking input from user
 user_name = input("Enter your name: ")
 user_age = input("Enter your age: ")
